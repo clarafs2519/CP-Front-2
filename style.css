@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+
+/* primeira parte */
+.fundo-tela {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #202832 ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imagem-fundo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+  
+}
+
+.conteudo {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 30% ;
+ 
+
+}
+
+.botoes{
+    display: flex;
+    gap:10px;
+    /* anotacao gap para espacamento entre os botaoes*/
+    
+}
+
+.botoes button { 
+    border: none; 
+    border-radius: 30px;
+    padding: 10px 20px;
+     
+}
+
+.botoes button:first-child {
+    background-color: white; 
+
+} 
+.botoes button:last-child { background-color: #bfc1c473;
+}
+
+.fone {
+    width: 80%;
+    max-width: 300px; 
+}
+
+.texto-fone h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px; 
+    font-weight: 400; 
+    margin-bottom: 25px;
+
+}
+
+.logo {
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    left: 45px;
+}
+
+
+/* segundaparte */
+.categorias {
+    background-color: #202832;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    max-width: 100%;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.categorias h1 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.card {
+    background-color: white;
+    color: #222;
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 10px 20px;
+    border-radius: 0 40px 0 40px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-radius: 0 40px 0 40px;
+}
+
+.card h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 15px 0 8px;
+}
+
+
+.botao {
+    margin-top: 50px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #8a8d94;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* terceiraparte */
+.mais-detalhes {
+    background-color: #d9d9d9;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px 200px;
+}
+
+.mais-detalhes img {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0 80px 0 0;
+}
+
+.nova-tecnologia h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+/* quartaparte */
+.rodape {
+    background-color: #202832;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 200px;
+    padding: 50px 20px;
+}
+
+.rodape h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.rodape h3 {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
